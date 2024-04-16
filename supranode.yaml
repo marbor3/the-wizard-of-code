@@ -5,6 +5,6 @@ script:
   # - bun install
   - npm install
   ## Build (alternatives commented)
-  # - next export
+  # - solid-start build
   - npm run build
-artifact: out
+artifact: .output

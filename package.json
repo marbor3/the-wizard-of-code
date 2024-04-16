@@ -1,28 +1,21 @@
 {
-  "name": "the-wizard-of-code",
-  "version": "0.1.0",
-  "private": true,
+  "name": "example-with-tailwindcss",
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
   },
   "dependencies": {
-    "@vercel/blob": "^0.14.1",
-    "next": "13.5.6",
-    "react": "^18",
-    "react-dom": "^18"
+    "@solidjs/router": "^0.13.2",
+    "@solidjs/start": "^1.0.0-rc.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "solid-js": "^1.8.16",
+    "tailwindcss": "^3.4.3",
+    "vinxi": "^0.3.11"
   },
-  "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10",
-    "eslint": "^8",
-    "eslint-config-next": "13.5.6",
-    "postcss": "^8",
-    "tailwindcss": "^3",
-    "typescript": "^5"
+  "engines": {
+    "node": ">=18"
   }
 }
