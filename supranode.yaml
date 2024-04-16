@@ -5,6 +5,6 @@ script:
   # - bun install
   - npm install
   ## Build (alternatives commented)
-  # - solid-start build
+  # - astro build
   - npm run build
-artifact: .output
+artifact: dist
